@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="main">
+        <div class="container">
+            <div class="block">
+                <h3>EXPLORE OUR NEW CHOCOLATE FIRST</h3>
+                <p>From the velvety texture to the rich and complex flavor, our New Chocolate is a true indulgence that will leave you craving more. Made with only the finest ingredients and handcrafted with the utmost care, each piece is a work of art that is sure to please.</p>
+                <button class="button" data-modal-open>Subscribe</button>
+            </div>
+        </div>
+    </section>
+    <div class="back-drop is-hidden" data-modal>
+        <div class="modal">
+            <button class="close" data-modal-close></button>
+            <div class="ww">
+                <p class="welcome">LEAVE A REVIEW ABOUT <span class="welcome2">OUR CHOCOLATE</span></p>
+            </div>
+            <form>
+                <input class="input" type="text" placeholder="Name" required>
+                <input class="input" type="email" placeholder="Email" required>
+                <div class="phone-container">
+                    <div class="flag-container">
+                        <img src="./img/flag.png" alt="flag" class="flag">
+                        <span class="number">+380</span>
+                    </div>
+                    <input class="input phone-input" type="tel" placeholder="Phone number" required>
+                </div>
+                <textarea class="inputt" placeholder="Enter text" required></textarea>
+                <button type="submit" class="send">Send</button>
+            </form>
+        </div>
+        <div class="back-drop is-hidden" data-modal2>
+            <div class="modal2">
+                <button class="close" data-modal2-close></button>
+                <div class="chocolate">
+                    <img src="./img/chocolate.png" alt="chocolate" class="choco">
+                </div>
+                <div class="ww">
+                    <p class="thankstext">THANKS YOU<br>
+                    FOR YOUR FEEDBACK
+                    </p>
+                    <p class="thankstext2">We are so happy to hear from you!</p>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <script src="./script.js"></script>
+</body>
+</html>
